@@ -1,0 +1,21 @@
+{
+    "name": "dynamic-pack/l-header-lang",
+    "description": "required package to detect language in api requests.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Selahattin GÜNEŞ",
+            "email": "selahattin.gunes.5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DynamicPack\\LHeaderLang\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^8.0"
+    }
+}
